@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Subscribe</title>
+
+        <!-- Google Font -->
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
+        
+        <!-- CSS Stylesheet-->
+        <link rel="stylesheet" href="css/sub_styles.css">
+
+        <!-- Font awesome -->
+        <script src="https://kit.fontawesome.com/019b905d2d.js" crossorigin="anonymous"></script>
+
+      
+          <!-- Javascript-->
+          <script src="JS/sub.js"></script>
+
+    </head>
+    <body>
+
+
+        <!-- Navbar -->
+
+        <section id="navbar">
+                <ul class="nav">
+                    <li class="brand nav-link"><a href="home_index.html">TechBLOG</a></li>
+                    <li class="link nav-link" style="float:right"><a href="contact_index.html">Contact Us</a></li>
+                    <li class="link nav-link" style="float:right"><a href="about.html">About Us</a></li>
+                    <li class="link nav-link" style="float:right"><a href="sub.html">Subscribe</a></li>
+                    <li class="link nav-link" style="float:right"><a href="blog_index.html">Blogs</a></li>
+                    <li class="link nav-link" style="float:right"><a href="home_index.html">Home</a></li>
+        </section>
+        <!-- company section -->
+        <img src="images/sub.jpg" class="sub_image">
+
+     <button class="open-button" onclick="openForm()">Subscribe</button>
+
+<div class="form-popup" id="myForm">
+  <form action="/action_page.php" class="form-container">
+    <h1>Subscribe</h1>
+
+    <label for="name"><b>Name</b></label>
+    <input type="text" placeholder="Enter Name" name="name" required>
+
+    <label for="email"><b>Email</b></label>
+    <input type="text" placeholder="Enter Email" name="email" required>
+
+    <button type="submit" class="btn"><b>Subscribe</b></button>
+    <button type="button" class="btn cancel" onclick="closeForm()"><b>Close</b></button>
+  </form>
+</div>
+
+
+
+ <!-- Footer-->
+
+              <footer class="footer-distributed">
+
+                <div class="footer-right">
+          
+                  <a href="#"><i class="fa fa-facebook"></i></a>
+                  <a href="#"><i class="fa fa-twitter"></i></a>
+                  <a href="#"><i class="fa fa-linkedin"></i></a>
+                  <a href="#"><i class="fa fa-github"></i></a>
+          
+                </div>
+          
+                <div class="footer-left">
+          
+                  <p class="footer-links">
+                    <a class="link-1" href="home_index.html">Home</a>
+          
+                    <a href="blog_index.html">Blog</a>
+          
+                    <a href="about.html">About Us</a>
+          
+                    <a href="contact_index.html">Contact Us</a>
+                  </p>
+          
+                  <p>TechBLOG &copy; 2021</p>
+                </div>
+          
+              </footer>
+        
+    </body>
+</html>         
