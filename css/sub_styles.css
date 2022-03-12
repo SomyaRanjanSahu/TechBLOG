@@ -77,6 +77,7 @@ li a {
   bottom: 350px;
   right: 200px;
   width: 280px;
+  border-radius: 30px;
 }
 
 /* The popup form - hidden by default */
@@ -134,6 +135,12 @@ li a {
   opacity: 1;
 }
 
+/* --------------------------------------------Subscribe --------------------------------------------*/
+
+.btn {
+  border-radius: 20px;
+}
+
 /* --------------------------------------------Footer --------------------------------------------*/ 
 
  
@@ -169,6 +176,15 @@ li a {
   text-decoration: none;
   color: inherit;
   transition: ease .25s;
+}
+
+.footer-distributed .footer-links a:before {
+  content: ".";
+  font-size: 20px;
+  left: 0;
+  color: #fff;
+  display: inline-block;
+  padding-right: 5px;
 }
 
 .footer-distributed .footer-links .link-1:before {
